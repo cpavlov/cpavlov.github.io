@@ -1,0 +1,48 @@
+body{
+    font-family: "MigMix 1M", "Meiryo", sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+
+div#container{
+    width: 940px;
+    margin: 0 auto;
+    padding: 1em 30px;
+}
+
+h2:before{
+    font-size: 24px;
+    content: "*";
+    margin: auto 0.5em auto auto;
+    color: rgb(0, 158, 230);
+}
+
+h2{
+    margin: 1em auto 1em -1em;
+    color: rgb(55, 55, 55);
+}
+
+ul#contact li{
+    list-style-type: none;
+    margin: auto -2.0em;
+}
+
+ul#contact li:before{
+    font-size: 16px;
+    content: "*";
+    margin: auto 0.5em auto auto;
+    padding: 0;
+    color: rgb(230, 72, 0);
+}
+
+pre{
+    margin: 0.5em 1em;
+    padding: 0.5em 1em;
+    background-color: rgb(80, 80, 80);
+}
+
+code{
+    font-family: "Ubuntu Mono", sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 0 rgb(50, 50, 50);
+}
+
